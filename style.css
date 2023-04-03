@@ -293,10 +293,12 @@ table p {
     display: flex;
     margin-top: 90px;
     position: relative;
+    left: -150px;
 }
 
 .creativity-wrapper > div:not(:first-child) {
     position: absolute;
+    top: -87px;
 }
 
 .mini-content {
@@ -338,25 +340,18 @@ table p {
 }
 
 .mini-one {
-    left: -150px;
     animation: orbitOne 40s linear infinite;
 }
 
 .mini-two {
-    top: -87px;
-    left: -150px;
     animation: orbitTwo 40s linear infinite;
 }
 
 .mini-three {
-    top: -87px;
-    left: -150px;
     animation: orbitThree 40s linear infinite;
 }
 
 .mini-four {
-    top: -87px;
-    left: -150px;
     animation: orbitFour 40s linear infinite;
 }
 
